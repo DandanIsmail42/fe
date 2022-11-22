@@ -24,7 +24,10 @@ export default function TopBar() {
     <Navbar bg="primary" variant="dark" expand="lg" fixed="top">
       <Container>
         <IndexLinkContainer to="/" exact>
-          <Navbar.Brand>POS</Navbar.Brand>
+          <Navbar.Brand>
+          <FontAwesomeIcon icon={solid('utensils')} style={{marginRight: 5, width: 40}} />
+            Foodstore
+            </Navbar.Brand>
         </IndexLinkContainer>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
